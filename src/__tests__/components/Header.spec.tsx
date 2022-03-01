@@ -13,7 +13,7 @@ jest.mock('../../hooks/useCart', () => {
     useCart: () => ({
       cart: [
         {
-          amount: 2,
+          amount: 1,
           id: 1,
           image:
             'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
